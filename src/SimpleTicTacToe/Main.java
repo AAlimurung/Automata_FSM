@@ -119,7 +119,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Just a simple tictactoe");
-        //do{
+        do{
             initialize();
             do{
                 inGame();
@@ -135,12 +135,12 @@ public class Main {
                 currentPlayer = (currentPlayer == cross_play) ? zero_play : cross_play;
             }while(currentGameState==playerTurn);
             //for repeated gameplay
-//        System.out.println("Play again? (y/n): ");
-//        char ch = sc.next().charAt(0);
-//        if(ch!='y' && ch!='Y'){
-//            System.out.println("Exiting game...");
-//            System.exit(0);
-//        }
-        //}while(true);
+        System.out.println("Play again? (y/n): ");
+        char ch = sc.next().charAt(0);
+        if(ch!='y' && ch!='Y'){
+            System.out.println("Exiting game...");
+            System.exit(0);
+        }
+        }while(true);
     }
 }
