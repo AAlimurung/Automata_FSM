@@ -45,7 +45,7 @@ public class Main {
                 System.out.println("Player 1's turn");
                 System.out.print("Enter move: row[1-3] col[1-3]: ");
             }else{
-                System.out.println("Player 1's turn");
+                System.out.println("Player 2's turn");
                 System.out.print("Enter move: row[1-3] col[1-3]: ");
             }
             int row = sc.nextInt() - 1;
